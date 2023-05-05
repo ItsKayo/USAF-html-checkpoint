@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GMDB - Login</title>
+		<link rel="stylesheet" href="./nav.css">
+		<link rel="stylesheet" href="./loginStyle.css"/>
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="menu">
+			<ul>
+				<li>GMDB</li>
+				<li><a href="./home.html">Home</a></li>
+				<li><a href="./index.html">Login</a></li>
+			</ul>
+			<form id="navbar">
+				<input type="search" name="search" placeholder="Search...">
+				<button id="search" type="submit">Search</button>
+			</form>
+		</nav>
+
+		<!-- Login Form -->
+		<div class="loginForm">
+			<div>
+				<h1>Login</h1>
+				<form>
+					<label>
+						Email:
+						<br>
+						<input id="email" type="text" name="email">
+					</label>
+					<br>
+					<label>
+						Password:
+						<br>
+						<input id="pass" type="password" name="password">
+					</label>
+					<br>
+					<button formaction="./home.html" id="login" type="submit">Login</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

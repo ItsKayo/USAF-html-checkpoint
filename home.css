@@ -1,0 +1,13 @@
+.gallery {
+	display: grid;
+}
+
+img {
+	height: 35em;
+	width: 26em;
+	margin-left: 1em;
+	margin-right: 2em;
+	margin-top: 2em;
+	border-radius: 4px;
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+}
